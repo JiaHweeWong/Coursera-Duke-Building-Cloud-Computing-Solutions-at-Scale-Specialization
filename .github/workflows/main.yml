@@ -11,21 +11,17 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        make install
-      working-directory: |
-        "Course 1 Cloud Computing Foundations/Week 3/scaffold"
+        make install 
+      working-directory: "Course 1 Cloud Computing Foundations/Week 3/scaffold"
     - name: Lint with Pylint
       run: |
-        make lint
-      working-directory: |
-        "Course 1 Cloud Computing Foundations/Week 3/scaffold"
+        make lint 
+      working-directory: "Course 1 Cloud Computing Foundations/Week 3/scaffold"
     - name: Test with Pytest
       run: |
-        make test
-      working-directory: |
-        "Course 1 Cloud Computing Foundations/Week 3/scaffold"
+        make test 
+      working-directory: "Course 1 Cloud Computing Foundations/Week 3/scaffold"
     - name: Format code with Python black
       run: |
-        make format
-      working-directory: |
-        "Course 1 Cloud Computing Foundations/Week 3/scaffold"
+        make format 
+      working-directory: "Course 1 Cloud Computing Foundations/Week 3/scaffold"
